@@ -1,1 +1,1 @@
-# jquery-grid-slider Blub
+# jquery-grid-slider Blaub
