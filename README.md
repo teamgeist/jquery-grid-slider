@@ -1,1 +1,3 @@
-# jquery-grid-slider Blaub
+# jquery-grid-slider
+
+Ab jetzt responsive! Bäm!
