@@ -93,12 +93,12 @@
 			$(this).find('.gis-outer-border').css('height', sliderHeight);
 			$(this).find('.gis-inner-border').css('height', sliderHeight - ((this.outerBorderWidth + this.imageBorderWidth) * 2));
 			if(append) {
-				// 1. Schritt: Berechnen des als letztes benötigten Indexes
+				// 1. Berechnen des als letztes benötigten Indexes
 				indexTopLeft += this.visibleCols;
 				if(indexTopLeft >= this.sliderImageArray.length) {
 					indexTopLeft -= this.sliderImageArray.length;
 				}
-				// 2. Schritt: Hinzufügen der nächsten Bilder
+				// 2. Hinzufügen der nächsten Bilder
 				var latestIndex = parseInt($(this).find('.gis-image-container').last().attr('data-gisindex'));
 				var newIndex = latestIndex;
 				for(var i = 0; i < this.visibleCols; i++) {
@@ -110,16 +110,16 @@
 					newImages[i] = this.sliderImageArray[newIndex].getImageObject();
 					$(this).find('.inner-grid-container').append(newImages[i]);
 				}
-				// 3. Schritt: top-Position vom sichtbaren Bereich verschieben
+				// 3. top-Position vom sichtbaren Bereich verschieben
 				$(this).find('.inner-grid-container').animate({
 					top : top - this.getImageContainerHeight()
 				}, this.animationTime, this.animation, function() {
 					instance.animationCallback(newImages, append);
 				});
 			} else {
-				// 1. Schritt: top-Position vom sichtbaren Bereich verschieben
+				// 1. top-Position vom sichtbaren Bereich verschieben
 				$(this).find('.inner-grid-container').css('top', -this.getImageContainerHeight() + 'px');
-				// 2. Schritt: Zeilen oben hinzufügen
+				// 2. Zeilen oben hinzufügen
 				for(var i = 0; i < this.visibleCols; i++) {
 					indexTopLeft--;
 					if(indexTopLeft < 0) {
@@ -128,7 +128,7 @@
 					newImages[i] = this.sliderImageArray[indexTopLeft].getImageObject();
 					$(this).find('.inner-grid-container').prepend(newImages[i]);
 				}
-				// 3. Schritt: Weitere Verschiebung der top-Position
+				// 3. Weitere Verschiebung der top-Position
 				$(this).find('.inner-grid-container').animate({
 					top : top
 				}, this.animationTime, this.animation, function() {
@@ -140,14 +140,14 @@
 		// Animation-Callback
 		this.animationCallback = function(newImages, append) {
 			instance.ready = true;
-			// 4. Schritt: Entfernen der untersten Bilder, wenn die Animation beendet wurde
+			// 4. Entfernen der untersten Bilder, wenn die Animation beendet wurde
 			while(newImages.length > 0) {
 				$(instance).find('.inner-grid-container').find('.gis-image-container:' + (append ? 'first' : 'last')).remove();
 				newImages.pop();
 			}
-			// 5. Schritt: Höhe auf 'auto' setzen
+			// 5. Höhe auf 'auto' setzen
 			$(instance).find('.gis-outer-border, .gis-inner-border').css('height', 'auto');
-			// 6. Schritt: Letztes Verschieben der top-Position
+			// 6. Letztes Verschieben der top-Position
 			$(instance).find('.inner-grid-container').css('top', '0px');
 		};
 		// return: Bildhöhe inkl. Border
