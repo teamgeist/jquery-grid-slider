@@ -13,6 +13,9 @@ Das Hauptmerkmal liegt hierbei auf der Rasterdarstellung, die es ideal ermöglic
 * Integrierte Fancybox
 * Automatisches Stoppen von Slider-Bewegungen, wenn sich der Mauszeiger auf dem Slider befindet
 
+Standardeinstellungen
+---------------------
+
 
 
 [![Build Status](https://travis-ci.org/cldwalker/table.png?branch=master)](https://travis-ci.org/cldwalker/rubydoc)
