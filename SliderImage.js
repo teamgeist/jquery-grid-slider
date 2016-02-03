@@ -1,4 +1,4 @@
-/** File created on 25. Jan 2016 at 11:16 */
+/** File 'SliderImage.js' created on 25. Jan 2016 at 11:16 */
 function SliderImage(sliderInstance, imageID, imageSrc, imageHref, imageCaption, imageElement) {
 	this.imageID = -1;
 	this.imageSrc = '';

@@ -1,4 +1,4 @@
-/** File created on 25. Jan 2016 at 11:16 */
+/** File 'GridImageSlider.js' created on 25. Jan 2016 at 11:16 */
 (function($) {
 	$.fn.gridImageSlider = function(options) {
 		// @formatter:off

@@ -1,4 +1,4 @@
-/** File created on 25. Jan 2016 at 11:17 */
+/** File 'EventHandler.js' created on 25. Jan 2016 at 11:17 */
 function EventHandler(sliderInstance) {
 	this.EventHandler = function() {
 		this.addMouseListener();
