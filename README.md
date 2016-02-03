@@ -31,6 +31,36 @@ Das Hauptmerkmal liegt hierbei auf der Rasterdarstellung, die es ideal ermöglic
 | animation             | swing  | String  | Animation *('swing' oder 'linear')*                                                                        |
 **Hinweis:** Es kann eine beliebige Anzahl von Bildern hinzugefügt werden. Jedoch sollte beachtet werden, dass leere
 Felder entstehen und der Slider ggf. nicht richtig arbeitet, sofern in den Einstellungen die Anzahl der Spalten multipliziert mit der Anzahl der Reihen, die Summe der eingefügten Bilder überschreitet. Sollte der Grid-Image-Slider nach dessen Initialisierung nicht zu sehen sein, bitte die Browserkonsole auf mögliche Fehler überprüfen.
+
+## Benötigte Scripte und CSS-Dateien
+```html
+https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js
+https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js
+https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css
+GridImageSlider.js
+SliderImage.js
+EventHandler.js
+gis-stylesheet.css
+
+// Scripte:
+<script type=text/javascript src="Dateipfad/Link"></script>
+
+// CSS:
+<link type="text/css" rel="stylesheet" media="all" href="Dateipfad/Link">
+```
+
+## 'meinSlider' ist die ID des Elementes, auf das der Grid-Image-Slider angewendet werden soll
+```html
+<div id=meinSlider>
+  <a href="Bilder_groß/Bild_(0).jpg"><img src="Bilder_klein/Bild_(0).jpg" alt=""></a>
+  <a href="Bilder_groß/Bild_(1).jpg"><img src="Bilder_klein/Bild_(1).jpg" alt=""></a>
+  <a href="Bilder_groß/Bild_(2).jpg"><img src="Bilder_klein/Bild_(2).jpg" alt=""></a>
+  ...
+</div>
+<div class=clear></div>
+```
+
 ## Anwendung
 ```javascript
 $('#meinSlider').gridImageSlider();
