@@ -14,8 +14,8 @@ Features
 
 Standardeinstellungen
 ---------------------
-| Option                | Wert   | Typ     | Kurzbeschreibung                                                                                            |
-| --------------------- |:------:| :------:|-----------------------------------------------------------------------------------------------------------: |
+| Option                | Wert   | Typ     | Kurzbeschreibung                                                                                         |
+| --------------------- |:------:| :-------|--------------------------------------------------------------------------------------------------------- |
 | maxImageRowCount      | 3      | Integer | Maximale Anzahl von Bildreihen
 | maxImageColumnCount   | 4      | Integer | Maximale Anzahl von Bildspalten
 | minImageWidth         | 300    | Integer | Minimale Bildbreite *(in Pixel)*
@@ -41,6 +41,6 @@ $('#meinSlider').gridImageSlider();
 // oder mit Optionen:
 $('#meinSlider').gridImageSlider({
   ...
-})
+});
 ```
 
