@@ -29,9 +29,8 @@ Das Hauptmerkmal liegt hierbei auf der Rasterdarstellung, die es ideal ermöglic
 | autoSlideStopOnHover  | true   | Boolean | Stoppt Bildverschiebungen, wenn sich die Maus auf dem Slider bzw. auf der geöffneten Fancybox befindet     |
 | outerBorderWidth      | 20     | Integer | Legt die Breite der äußersten Border fest *(in Pixel, mind. 0)*                                            |
 | animation             | swing  | String  | Animation *('swing' oder 'linear')*                                                                        |
-
+Hinweis: Es kann eine beliebige Anzahl von Bildern hinzugefügt werden. Jedoch sollte beachtet werden, dass leere Felder entstehen und der Slider ggf. nicht richtig arbeitet, sofern in den Einstellungen die Anzahl der Spalten multipliziert mit der Anzahl der Reihen, die Summe der eingefügten Bilder überschreitet. Sollte der Grid-Image-Slider nach dessen Initialisierung nicht zu sehen sein, bitte die Browserkonsole auf mögliche Fehler überprüfen.
 ## Anwendung
-
 ```javascript
 $('#meinSlider').gridImageSlider();
 
