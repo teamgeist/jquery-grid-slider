@@ -31,3 +31,16 @@ Standardeinstellungen
 | autoSlideStopOnHover  | true   | Boolean | Stoppt Bildverschiebungen, wenn sich die Maus auf dem Slider bzw. auf der geöffneten Fancybox befindet
 | outerBorderWidth      | 20     | Integer | Legt die Breite der äußersten Border fest *(in Pixel, mind. 0)*
 | animation             | swing  | String  | Animation *('swing' oder 'linear')*
+
+Anwendung
+---------
+
+```javascript
+$('#meinSlider').gridImageSlider();
+
+// oder mit Optionen:
+$('#meinSlider').gridImageSlider({
+  ...
+})
+```
+
