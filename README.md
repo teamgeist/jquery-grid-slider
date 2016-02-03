@@ -40,7 +40,7 @@ gis-stylesheet.css
 <div class=clear></div>
 ```
 
-## Anwendung
+## Initialisieren des jQuery-Grid-Sliders
 ```javascript
 $('#meinSlider').gridImageSlider();
 
