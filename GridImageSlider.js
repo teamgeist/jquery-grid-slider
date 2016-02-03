@@ -81,8 +81,8 @@
 			this.ready = false;
 			this.prepareRow(append);
 		};
-		// Errechnet die zu fehlenden Bilder, die neu geladen werden müssen. (Für die nächste bzw. vorherige Reihe), append = true ? Bilder werden von unten
-		// nachgeschoben und führt die Bewegung aus
+		// Errechnet die zu fehlenden Bilder, die neu geladen werden müssen. (Für die nächste bzw. vorherige Reihe), append = true ? Bilder werden von unten nachgeschoben und führt die
+		// Bewegung aus
 		this.prepareRow = function(append) {
 			var indexTopLeft = this.getPictureIndexTopLeft();
 			var top = $(this).find('.inner-grid-container').position().top;

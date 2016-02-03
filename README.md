@@ -46,7 +46,7 @@ $('#meinSlider').gridImageSlider();
 
 // oder mit Optionen:
 $('#meinSlider').gridImageSlider({
-  ...
+
 });
 ```
 
