@@ -10,7 +10,9 @@ Das Hauptmerkmal liegt hierbei auf der Rasterdarstellung, die es ideal ermöglic
 * Automatische Slider-Bewegungen oder via Navigationspfeile, Mausrad und Tasten
 * Integrierte Fancybox
 * Automatisches Stoppen von Slider-Bewegungen, wenn sich der Mauszeiger auf dem Slider befindet
-__________
+
+* * *
+
 ## Benötigte Scripte und CSS-Dateien
 ```html
 https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js
