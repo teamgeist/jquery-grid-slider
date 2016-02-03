@@ -1,5 +1,5 @@
-# jQuery-Grid-Slider
-[![Build Status](https://travis-ci.org/cldwalker/table.png?branch=master)](https://travis-ci.org/cldwalker/rubydoc)Der Grid-Image-Slider ist eine responsive und dynamische Bildergalerie - basierend auf jQuery.
+# jQuery-Grid-Slider [![Build Status](https://travis-ci.org/cldwalker/table.png?branch=master)](https://travis-ci.org/cldwalker/rubydoc)
+Der Grid-Image-Slider ist eine responsive und dynamische Bildergalerie - basierend auf jQuery.
 Das Hauptmerkmal liegt hierbei auf der Rasterdarstellung, die es ideal ermöglicht endlos viele Bilder darzustellen.
 
 Features
