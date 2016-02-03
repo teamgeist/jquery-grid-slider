@@ -8,3 +8,4 @@ Das Hauptmerkmal liegt hierbei auf der Rasterdarstellung, die es ideal ermöglic
 Standardeinstellungen
 ---------------
 * maxImageRowCount
+* maxImageColumnCount
