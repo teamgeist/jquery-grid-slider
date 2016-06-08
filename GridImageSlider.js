@@ -1,4 +1,12 @@
-/** File 'GridImageSlider.js' created on 25. Jan 2016 at 11:16 */
+/**
+ *      Version: 1.0.0
+ *      Datum: 08.06.2016
+ *      Uhrzeit: 16:11
+ *
+ *      Dateiname: GridImageSlider.js
+ *      Erstellt am: 25.01.2016 um 11:16 Uhr
+ */
+
 (function($) {
 	$.fn.gridImageSlider = function(options) {
 		// @formatter:off

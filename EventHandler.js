@@ -1,4 +1,12 @@
-/** File 'EventHandler.js' created on 25. Jan 2016 at 11:17 */
+/**
+ *      Version: 1.0.0
+ *      Datum: 08.06.2016
+ *      Uhrzeit: 16:11
+ *
+ *      Dateiname: EventHandler.js
+ *      Erstellt am: 25.01.2016 um 11:17 Uhr
+ */
+
 function EventHandler(sliderInstance) {
 	this.EventHandler = function() {
 		this.addMouseListener();

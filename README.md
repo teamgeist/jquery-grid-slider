@@ -1,4 +1,13 @@
-************************************************************************************************************************
+[//]: #
+[//]: # (Version: 1.0.0)
+[//]: # (Datum: 08.06.2016)
+[//]: # (Uhrzeit: 16:11)
+[//]: #
+[//]: # (Dateiname: EventHandler.js)
+[//]: # (Erstellt am: 25.01.2016 um 11:17 Uhr)
+[//]: #
+
+ ************************************************************************************************************************
 # jQuery-Grid-Slider
 Der Grid-Image-Slider ist eine responsive und dynamische Bildergalerie - basierend auf jQuery.
 Das Hauptmerkmal liegt hierbei auf der Rasterdarstellung, die es ideal ermöglicht endlos viele Bilder darzustellen.

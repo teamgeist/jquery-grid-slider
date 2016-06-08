@@ -1,4 +1,12 @@
-/** File 'SliderImage.js' created on 25. Jan 2016 at 11:16 */
+/**
+ *      Version: 1.0.0
+ *      Datum: 08.06.2016
+ *      Uhrzeit: 16:11
+ *
+ *      Dateiname: SliderImage.js
+ *      Erstellt am: 25.01.2016 um 11:16 Uhr
+ */
+
 function SliderImage(sliderInstance, imageID, imageSrc, imageHref, imageCaption, imageElement) {
 	this.imageID = -1;
 	this.imageSrc = '';
@@ -32,14 +40,13 @@ function SliderImage(sliderInstance, imageID, imageSrc, imageHref, imageCaption,
 			// TODO: Fancybox wirkt nur auf Elementen mit HREF-Tag (.add(this.imageObject.find('.img-caption'))) - Was ist mit Fancybox beim Klick auf Bildunterschriften und Bildnummern?
 			// TODO: Callback-Funktion wird beim Öffnen der Lightbox für jedes Bild ausgeführt (sollte nur für eins)
 			// TODO: autoSlide stoppt manchmal nicht, wenn Fancybox geöffnet wird
-			this.imageObject.find('a').fancybox({
+			this.imageObject.find('.gis-image-container a').fancybox({
 				helpers : {
 					title : {
 						type : 'inside',
 						position : 'bottom'
 					}
-				},
-				'afterClose' : function() {
+				}, 'afterClose' : function() {
 					sliderInstance.setAutoSlide(true);
 				}, 'afterShow' : function() {
 					sliderInstance.setAutoSlide(false);
